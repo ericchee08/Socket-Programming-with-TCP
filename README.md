@@ -1,6 +1,6 @@
 # Network-Sockets-with-TCP
 
-A simple Unicast TCP network program in Java to demonstrate a practical
+A simple demonstration of Unicast TCP network program in Java.
 
 TCP protocol processes run on different machines and communicate with each other by sending messages into sockets. Each process is analogous to a ‘house’ and the process’s socket is analogous to a ‘door’. As shown in the diagram below, the ‘socket’ is the ‘door’ between the application process and TCP.
 
