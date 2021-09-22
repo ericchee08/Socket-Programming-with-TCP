@@ -24,7 +24,7 @@ During the three-way handshake the client knocks on the ‘door’ of the server
 
 ## Starting the Server and Client
 
-The server needs to be running first so it can be waiting for the client to connect (‘knock on the door’) to the server and commence the ‘three-way handshake’ to establish the connection, ready for communication to begin. To run the server, type the following command in the command/terminal window: "java ServerSide".
+The server needs to be running first so it can be waiting for the client to connect to the server and commence the ‘three-way handshake’ to establish the connection, ready for communication to begin. To run the server, type the following command in the command/terminal window: "java ServerSide".
 
 The server is now running - waiting and listening for the client’s request to connect. When the client connects, the link is established and communication can begin.
 
