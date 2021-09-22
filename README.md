@@ -1,4 +1,4 @@
-# Network-Sockets-with-TCP
+# Socket Programming with TCP
 
 A simple program demonstrating Unicast TCP network in Java.
 
@@ -21,6 +21,12 @@ If the server process is running, then the client can initiate a TCP connection 
 3. The three-way handshake takes place at the transport-layer and is completely transparent to the server and client programs.
 
 During the three-way handshake the client knocks on the ‘door’ of the server process requesting a connection. The server responds by opening the ‘door’ - i.e. creating a new socket, which is dedicated to that particular client. At the end of the handshaking phase, a TCP connection exists between the client’s socket and the server's new socket, referred to as the server’s ‘connection socket’. There now exists a direct virtual pipe between the client’s socket and the server's connection socket.
+
+### Technologies 
+
+* [Java SE 11](https://www.oracle.com/uk/java/technologies/javase-jdk11-downloads.html)
+* Terminal/Command Line
+* [Wireshark](https://www.wireshark.org/download.html)
 
 ## Starting the Server and Client
 
