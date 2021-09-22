@@ -22,7 +22,7 @@ If the server process is running, then the client can initiate a TCP connection 
 
 During the three-way handshake the client knocks on the ‘door’ of the server process requesting a connection. The server responds by opening the ‘door’ - i.e. creating a new socket, which is dedicated to that particular client. At the end of the handshaking phase, a TCP connection exists between the client’s socket and the server's new socket, referred to as the server’s ‘connection socket’. There now exists a direct virtual pipe between the client’s socket and the server's connection socket.
 
-## Starting the server and Client
+## Starting the Server and Client
 
 The server needs to be running first so it can be waiting for the client to connect (‘knock on the door’) to the server and commence the ‘three-way handshake’ to establish the connection, ready for communication to begin. To run the server, type the following command in the command/terminal window: "java ServerSide".
 
